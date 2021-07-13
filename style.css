@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+}
+
+.tip-calculator{
+    width: 1440px;
+    height: 42rem;
+    background-color: hsl(185, 41%, 84%) ;
+    
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo{
+    margin: 50px;
+}
+
+.main{
+    width: 55%;
+    height: 51%;
+    background-color:hsl(0, 0%, 100%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.calculator{
+    width: 50%;
+    height: 85%;
+    
+}
+
+.calculator-display{
+    width: 35%;
+    height: 72%;
+    
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+}
+
+.btn-sn{
+    position: relative;
+    background-color:hsl(172, 67%, 45%) ;
+    top: 70px;
+    padding: 5px 115px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0.5;
+    font-weight:700 ;
+    font-size: 16px;
+    box-shadow: none;
+    
+}
+
+.btn-sn:hover{
+    background-color: hsl(185, 68%, 48%);
+    opacity:1;
+}
+
+.amount{
+    color:hsl(172, 67%, 45%) ;
+    
+}
+
+.amount img{
+    color:hsl(172, 67%, 45%) ;
+}
+
+.dsec{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.dsec h4{
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.dsec p{
+    font-weight: 300;
+    font-size: 13px;
+    color: hsl(172, 67%, 45%) ;
+}
+
+
+/* ----------calculator-------- */
+
+
+
+.csec1{ 
+    font-weight: 300;
+    font-size: 13px;
+    color: hsl(183, 100%, 15%);
+    margin: 20px;
+}
+.csec2{ 
+    font-weight: 300;
+    font-size: 13px;
+    color: hsl(183, 100%, 15%);
+    margin: 20px;
+}
+.csec3{ 
+    font-weight: 300;
+    font-size: 13px;
+    color: hsl(183, 100%, 15%);
+    margin: 20px;
+}
+
+.btn{
+    width: 90px;
+    height: 35px;
+    background-color: hsl(183, 100%, 15%);
+    margin: 5px;
+    margin-left: 0;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color:hsl(172, 67%, 45%) ;
+}
+
+.btn1{
+    width: 86px;
+    height: 31px;
+    background-color: hsl(189, 41%, 97%);
+    font-weight: bold;
+}
+
+.csec1 input{
+    width: 273px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: hsl(184, 33%, 82%);
+    border: none;
+}
+
+.csec1 input:hover{
+    border: 2px solid hsl(172, 67%, 45%);
+}
+
+.csec3 input{
+    width: 273px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: hsl(184, 33%, 82%);
+    border: none;
+}
+
+.csec3 input:hover{
+    border: 2px solid hsl(172, 67%, 45%);
+}
+
+.btn-2{
+    display: flex;
+}
+.btn-3{
+    display: flex;
+}
+
+@media(max-width: 700px;){
+    .main{
+        flex-direction: column;
+    }
+}
+

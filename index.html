@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+  <!-- font-family: 'Space Mono', monospace; -->
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <div class="tip-calculator">
+
+    <div class="logo"><img src="logo.svg" alt=""></div>
+
+
+    <div class="main" id="main">
+
+
+      <div class="calculator" id="calculator">
+        <div class="csec1">
+          <p>Bill</p>
+          <input type="number" name="">
+        </div>
+        <div class="csec2">
+          <p>Select Tip %</p>
+          <div class="btn-2"> <button class="btn">5%</button>
+            <button class="btn">10%</button>
+            <button class="btn">15%</button>
+          </div>
+          <div class="btn-3"> <button class="btn">25%</button>
+            <button class="btn">50%</button>
+            <input type="number" name="" class="btn btn1" placeholder="Custom">
+          </div>
+
+        </div>
+        <div class="csec3">
+          <p>Number of people</p>
+          <input type="number" name="" required="required">
+        </div>
+      </div>
+
+
+      <div class="calculator-display" id="calculator-display">
+        <div class="dsec">
+          <div>
+            <h4>Total Amount</h4>
+            <p>/ person</p>
+          </div>
+          <div>
+            <h1 class="amount" id="total-amount"><img src="icon-dollar.svg" alt="">0.00</h1>
+          </div>
+        </div>
+        <div class="dsec">
+          <div>
+            <h4>Total</h4>
+            <p>/ person</p>
+          </div>
+          <div>
+            <h1 class="amount" id="person-amount"><img src="icon-dollar.svg" alt="">0.00</h1>
+          </div>
+        </div>
+        <div class="btn-d">
+          <button class="btn-sn">Reset</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
